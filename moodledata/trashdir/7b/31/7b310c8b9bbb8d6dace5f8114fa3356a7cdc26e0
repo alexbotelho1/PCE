@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This package has been created with Moodle 3.3.2+ (Build: 20170915) (2017051502.02) http://moodle.org/, Book module version 2017051500 - https://github.com/skodak/moodle-mod_book -->
+<!-- One idea and implementation by Eloy Lafuente (stronk7) and Antonio Vicent (C) 2001-3001 -->
+<manifest xmlns="http://www.imsglobal.org/xsd/imscp_v1p1" xmlns:imsmd="http://www.imsglobal.org/xsd/imsmd_v1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" identifier="MANIFEST-12675e6657b11dc80966ca1912c1db0a" xsi:schemaLocation="http://www.imsglobal.org/xsd/imscp_v1p1 imscp_v1p1.xsd http://www.imsglobal.org/xsd/imsmd_v1p2 imsmd_v1p2p2.xsd">
+  <organizations default="MOODLE-1-1">
+    <organization identifier="MOODLE-1-1" structure="hierarchical">
+      <title>Teste</title>
+        <item identifier="ITEM-1-1-1" isvisible="true" identifierref="RES-1-1-1">
+         <title>Eco</title>
+          <item identifier="ITEM-1-1-2" isvisible="true" identifierref="RES-1-1-2">
+           <title>Caixa</title>
+          </item>
+        </item>
+    </organization>
+  </organizations>
+  <resources>
+    <resource identifier="RES-1-1-1" type="webcontent" xml:base="1/" href="index.html">
+      <file href="1/index.html" />
+      <dependency identifierref="RES-1-1-css" />
+    </resource>
+    <resource identifier="RES-1-1-2" type="webcontent" xml:base="2/" href="index.html">
+      <file href="2/index.html" />
+      <dependency identifierref="RES-1-1-css" />
+    </resource>
+    <resource identifier="RES-1-1-css" type="webcontent" xml:base="css/" href="styles.css">
+      <file href="css/styles.css" />
+    </resource>
+  </resources>
+</manifest>
